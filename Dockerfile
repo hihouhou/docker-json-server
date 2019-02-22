@@ -9,6 +9,8 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
+ENV JSON_SERVER_VERSION v0.14.1
+
 # Update & install packages
 RUN apt-get update && \
     apt-get install -y gnupg2 curl
