@@ -16,11 +16,11 @@ RUN apt-get update && \
     apt-get install -y gnupg2 curl
 
 #Add yarn repository
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 
 # Update & install packages
 RUN apt-get update && \
-    apt-get install -y npm nodejs
+    apt-get install -y nodejs
 
 # Install the server
 RUN npm install -g json-server
