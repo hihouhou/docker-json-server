@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV JSON_SERVER_VERSION v0.15.1
+ENV JSON_SERVER_VERSION v0.16.0
 
 # Update & install packages
 RUN apt-get update && \
