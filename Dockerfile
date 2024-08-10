@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV JSON_SERVER_VERSION v0.17.4
+ENV JSON_SERVER_VERSION=v0.17.4
 
 # Update & install packages
 RUN apt-get update && \
